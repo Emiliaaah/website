@@ -1,0 +1,13 @@
+kind: pipeline
+name: Build
+
+steps:
+- name: docker
+  image: plugins/docker
+  settings:
+    username: 
+      from_secret: username
+    password: 
+      from_secret: password
+    repo: https://registry.emilia.codes/emilia.codes
+    tags: latest

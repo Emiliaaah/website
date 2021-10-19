@@ -1,0 +1,1 @@
+[![Build Status](https://drone.emilia.codes/api/badges/Emilia/Emilia.codes/status.svg)](https://drone.emilia.codes/Emilia/Emilia.codes)

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://emilia.codes/sitemap.xml

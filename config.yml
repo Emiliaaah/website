@@ -1,0 +1,111 @@
+baseURL: https://emilia.codes/
+languageCode: en-us
+title: Emilia
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Emilia
+    description: "Just your average freelance developer"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Emilia
+    # author: ["Me", "You"] # multiple authors
+    images: ["http://localhost:1313/img/avatar.jpg", "http://localhost:1313/img/icon.png"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: false
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        disableFingerprinting: true
+        favicon: "/favicon.ico"
+        favicon16x16: "/favicon.ico"
+        favicon32x32: "/favicon.ico"
+        # apple_touch_icon: "<link / abs url>"
+        # safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Emilia"
+        icon: "/img/icon.png"
+        iconHeight: 32
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: Emilia
+        subtitle: "Just your average freelance developer & system admin"
+        imageUrl: "/img/avatar.jpg"
+        imageWidth: 128
+        imageHeight: 128
+        imageTitle: avatar
+        # buttons:
+        #     - name: Archive
+        #       url: archives
+
+    socialIcons:
+        - name: steam
+          url: "https://steamcommunity.com/id/Emiliaaah/"
+        - name: github
+          url: "https://github.com/Emiliaaah"
+        - name: twitter
+          url: "https://twitter.com/CodingEmilia"
+        - name: email
+          url: "mailto:emilia@emilia.codes"
+
+    cover:
+        hidden: true # hide everywhere but not in structured data
+        hiddenInList: true # hide on list pages and home
+        hiddenInSingle: true # hide on single page
+
+    # for search
+    # https://fusejs.io/api/options.html
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+# menu:
+#     main:
+#         - identifier: home
+#           name: Home
+#           url: /
+#           weight: 9
+        # - identifier: archive
+        #   name: Archive
+        #   url: /archives/
+        #   weight: 10
+        # - identifier: tags
+        #   name: Tags
+        #   url: /tags/
+        #   weight: 11
+        # - identifier: search
+        #   name: Search
+        #   url: /search/
+        #   weight: 11
